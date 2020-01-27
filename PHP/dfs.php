@@ -30,7 +30,7 @@ class dfs {
 
     /**
      * preorder: depth first search
-     * @param $data
+     * @param $node
      */
     public function preorder($node) {
         static $data;
@@ -48,6 +48,10 @@ class dfs {
         return $data;
     }
 
+    /**
+     * inorder: depth first search
+     * @param $node
+     */
     public function inorder($node) {
         static $data;
 
@@ -65,6 +69,11 @@ class dfs {
         return $data;
     }
 
+
+    /**
+     * postorder: depth first search
+     * @param $node
+     */
     public function postorder($node) {
         static $data;
 
