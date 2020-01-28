@@ -4,7 +4,6 @@ def bubble_sort(arr):
     bound = count - 1
     for i in range(1, count):
         tmp_bound = 0
-        swap = False
         for j in range(1, bound):
             if (arr[j] > arr[j + 1]):
                 tmp = arr[j]
