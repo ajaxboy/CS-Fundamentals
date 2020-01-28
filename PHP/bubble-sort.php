@@ -11,7 +11,6 @@ function bubble_sort(array $arr) : array {
     $bound = $len -1;
     for ($i = 0; $i < $len; $i ++) {
         $newbound = 0;
-        $count++;
         for ($j = 0; $j < $bound; $j++) {
             if ($arr[$j] > $arr[$j + 1]) {
                 $tmp = $arr[$j];
