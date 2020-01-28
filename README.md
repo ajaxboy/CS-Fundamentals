@@ -1,5 +1,4 @@
-# CS-Fundamentals
-Algorithms &amp;  CS Material:  PHP, Python, Golang or NodeJS.
+# CS Material:  PHP, Python, Golang or NodeJS.
 
 Hi! I am CJ
 
