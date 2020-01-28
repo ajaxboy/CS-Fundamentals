@@ -7,6 +7,6 @@ The files in this directory are/will be algorithms I created or will be adding o
 
 Type of Code: Algorithms, Challenges, Constests, Data Structures. Practice Algo/DS in various formats.
 
-Languages: Code could be on in (or multiple) of these languages: PHP, Python, Golang or NodeJS
+Languages: Each Code will be either in one or more of these languages (or multiple) : PHP, Python, Golang or NodeJS
 
 
