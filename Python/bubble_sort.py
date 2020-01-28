@@ -1,21 +1,19 @@
 
 def bubble_sort(arr):
-    len = len(arr)
-    bound = len - 1
-    for i in range(, len):
+    count = len(arr)
+    bound = count - 1
+    for i in range(1, count):
         tmp_bound = 0
-        swap = false
+        swap = False
         for j in range(1, bound):
             if (arr[j] > arr[j + 1]):
                 tmp = arr[j]
                 arr[j] = arr[j + 1]
                 arr[j + 1] = tmp
                 tmp_bound = j
-                swap = true
-        bound = tmp_bound
-
-        if swap:
-            break
-
     return arr
 
+
+arr = [3,6,55,23,77,44,21,33,10,5,42,11,15]
+
+print(bubble_sort(arr))
