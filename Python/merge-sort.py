@@ -1,5 +1,11 @@
 import math
-
+"""
+ *  Author: CJ Galindo
+ *  Merge sort algorigthm
+ *  Time complexity: O (n log n)
+ *  Best time: Ω (n log n)
+ *  Space Complexity: O(n)
+"""
 def merge_sort(arr):
     count = len(arr)
 
