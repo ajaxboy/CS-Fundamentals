@@ -12,6 +12,6 @@ Algorithms, Problems, Challenges, Contests. Practice Algo/DS in various formats.
 each algorithm will be either in one or more of these languages:  PHP, Python, Golang or NodeJS
 
 ##### Purpose: 
-These algorithms are implemented in everyday life; for example: the Fibonacci sequence, or Binary Tress, Sorting Algothrims, and other problems that I personally resolve to make sure I understand the algorithms;
+These algorithms are implemented in everyday life; for example: the Fibonacci sequence, or Binary Tress, Sorting Algothrims, and other problems that I personally resolve from contests or sites like hackerrack.com
 
 
