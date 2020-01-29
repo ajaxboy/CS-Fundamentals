@@ -17,4 +17,4 @@ These algorithms are implemented in everyday life; for example: the Fibonacci se
 
 Theme of things I've learned so far:
 
-Complexity Analisis, Bubble-Sort, Merge-Sort, Binary Trees,  Binary Search Tree (Preorder, Inorder, Postorder)
+Complexity Analysis, Bubble-Sort, Merge-Sort, Binary Trees,  Binary Search Tree (Preorder, Inorder, Postorder)
