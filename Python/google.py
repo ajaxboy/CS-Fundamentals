@@ -45,7 +45,7 @@ def​ ​solution(area):
 ​ ​​ ​​ ​​ ​
 ​ ​​ ​​ ​​ ​arr​ ​=​ ​[]
 ​ ​​ ​​ ​​ ​while​ ​area​ ​>​ ​0:
-​ ​​ ​​ ​​ ​​ ​​ ​​ ​​ ​sqr​ ​=​ ​pow(math.floor(math.sqrt(area)),​ ​2)
+​ ​​ ​​ ​​ ​​ ​​ ​​ ​​ ​sqr​ ​=​ ​int(pow(math.floor(math.sqrt(area)),​ ​2))
 ​ ​​ ​​ ​​ ​​ ​​ ​​ ​​ ​area​ ​-=​ ​sqr
 ​ ​​ ​​ ​​ ​​ ​​ ​​ ​​ ​arr.append(sqr)
 ​ ​​ ​​ ​​ ​

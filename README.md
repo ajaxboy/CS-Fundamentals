@@ -6,10 +6,10 @@ Hi! I am CJ
 The files in this directory are * well known * algorithms; that I will be coding over time when studying Computer Science Fundamentals.
 
 ##### Type of Code: 
-Algorithms, Problems, Challenges, Contests. Practice Algo/DS in various formats.
+Algorithms, Problems, Challenges, Contests. Practice Algo/DS in various formats and stories.
 
 ##### Languages: 
 each algorithm will be either in one or more of these languages:  PHP, Python, Golang or NodeJS/JavaScript
 
 ##### Purpose: 
-These algorithms are implemented in everyday life; for example: the Fibonacci sequence, or Binary Trees, Sorting algorithm, and other problems that I personally resolve from contests or sites like https://www.hackerrank.com/contests
+These algorithms are implemented in everyday life; for example: the Fibonacci sequence, or Binary Trees, Sorting algorithm, and other problems; contests such as from sites like https://www.hackerrank.com/contests
