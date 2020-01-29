@@ -5,6 +5,7 @@
  *  Merge sort algorigthm
  *  Time complexity: O (n log n)
  *  Best time: Ω (n log n)
+ *  Space Complexity: O(n)
  */
 function merge_sort(array $array): array {
     $len = count($array);
