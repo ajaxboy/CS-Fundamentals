@@ -8,6 +8,9 @@ func main() {
 
 }
 
+/*
+*  Time O (n²) ,  Space O (1)
+ */
 func bubble_sort(arr []int) []int {
 	lenth := len(arr)
 	bound, newbound := lenth-1, 0
