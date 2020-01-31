@@ -4,34 +4,30 @@
 # O (n)
 def cellCompete(states, days):
     """
-    The greatest common divisor (GCD), also called highest common factor
-    (HCF) of N numbers in the largest positive integer that divides all numbers without giving a remainder.
+    Eight house, represented as cells, are arranged in a straight line. Each day
+    every cell competes with its adjacent cells (neighbors). An integer value of 1 represents an active cell and a value of 0 represents an inactive cell. 
+    If the neighbors on both sides of a cell are either active or inactive, the cell  becomes inactive on the next day; otherwise the cell becomes active. The two cells on each end have a single adjacent cell, so assume that the unoccupied space on the opposite side is an inactive cell. 
+    Even after updating the cell state information of all cells should be updated simultaneously.
 
-    Write an algorithm to determine the GCD of N positive integers.
+    Write an algorithm to output the state of the cell after the given number of days.
+    
     Input
-    The input to the function/method consists of two arguments - num, an integer representing the number of positive integers (N).
-    arr, a list of positive integers.
-    Output
-    Return an integer representing the GCD of the given positive integers.
+    The input to the function/method consist of two arguments.
+    states, a list of integers representing the current state of cells;
+    days an integer representing the number of days.
 
-    Example
-    Input
-    num = 5
-    arr = [2,4,6,8,10]
-    Output:
-    2
-    Explanation
-    The largest positive integer that divides all possible integers 
+    Output Return a list of integers representing the state of the cell after the given number of days
 
-    Example
-    Input:
-    num. 5
-    arr = [2,4,6,8,10]
-    Output
-    2
-    Explanation:
-    The largest positive integer that divides all the positive integers 2,4,6,8,10
-    without a remainder is 2
+    Testcase 1:
+    input
+    [1, 0, 0, ,0 ,0 , 1, 0, 0], 1
+    Expected Return Value:
+    0 1 0 0 1 0 1 0
+
+    Testcase 2:
+    [1, 1, 1, 0, 1, 1, 1, 1, 2
+    Expected Output:
+    0 0 0 0 0 1 1 0
     """
     states.insert(0,0)
     states += [0]
