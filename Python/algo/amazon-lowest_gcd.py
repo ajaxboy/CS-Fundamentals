@@ -1,4 +1,7 @@
   """
+    Author: Cj Galindo
+    Amazon's coding challenge
+
     The greatest common divisor (GCD), also called highest common factor
     (HCF) of N numbers in the largest positive integer that divides all numbers without giving a remainder.
 
