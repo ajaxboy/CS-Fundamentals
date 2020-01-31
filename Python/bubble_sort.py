@@ -6,9 +6,7 @@ def bubble_sort(arr):
         tmp_bound = 0
         for j in range(1, bound):
             if (arr[j] > arr[j + 1]):
-                tmp = arr[j]
-                arr[j] = arr[j + 1]
-                arr[j + 1] = tmp
+                arr[j],arr[j + 1] = arr[j + 1], arr[j]
                 tmp_bound = j
     return arr
 
