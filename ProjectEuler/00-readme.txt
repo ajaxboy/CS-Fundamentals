@@ -1,9 +1,16 @@
+Author: Cj Galindo
+
+The programs in this directory were are written in Golang, they are compiled programs.
+Can be run in a terminal.
+
+Background:
 Project Euler is a website dedicated to a series of computational problems intended to be 
 solved with computer programs. The project attracts adults and students interested 
 in mathematics and computer programming. Since its creation in 2001 by Colin Hughes, 
 Project Euler has gained notability and popularity worldwide.
 ------------------------------------------------------------------------------------------
 
+compiled/binaries
 This directory contains  (or will contain if i am not done) 
 60  problems from projecteuler.net, as a recommendation by Amazon.
 Initially I thought that I needed to solve these problems with my head - and I even tried!
